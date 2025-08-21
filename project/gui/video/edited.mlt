@@ -1,0 +1,250 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.4.0" title="Shotcut version 22.01.30" producer="main_bin">
+  <profile description="automatic" width="1024" height="576" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="601"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:09.967">
+    <property name="length">00:00:10.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:09.967"/>
+  </playlist>
+  <chain id="chain0" title="Shotcut version 22.01.30" out="00:00:05.967">
+    <property name="length">00:00:06.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">l.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">l.mp4</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="xml">was here</property>
+  </chain>
+  <producer id="producer0" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:00:01.967">
+    <property name="length">00:00:02.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">3:l.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">3</property>
+    <property name="warp_resource">l.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="shotcut:caption">l.mp4 (3x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <chain id="chain1" title="Shotcut version 22.01.30" out="00:00:05.967">
+    <property name="length">00:00:06.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">l.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">ea24203c9a71ccb93624951341a64b79</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">l.mp4</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:00.833"/>
+    <entry producer="producer0" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer1" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer2" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer3" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer4" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer5" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer6" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer7" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="producer8" in="00:00:00.300" out="00:00:00.933"/>
+    <entry producer="chain1" in="00:00:02.867" out="00:00:05.967"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.01.30" in="00:00:00.000" out="00:00:09.967">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
