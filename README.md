@@ -1,4 +1,4 @@
-# Universal Robot 5 {ROS & MoveIt Simulation}
+# OpenCV {Face Lock}
 
 ---
 
@@ -33,30 +33,6 @@ Unlike mobile robots, robotic arms require **inverse kinematics (IK)**, **path p
 
 Think of this as your **training ground for industrial robotics**. Instead of dealing with expensive hardware, you get the same software architecture in a safe simulated environment.
 
-![alt text](ur5.gif)
-
-
----
-
-
-
-</div>
-
----
-
-<div class="section-border">
-
-## 3. How to Run
-
-   ```bash
-   cd ~/catkin_ws
-   mkdir src
-   cd src
-   git clone https://github.com/muhammadsaadirfan/UR5-Simulation.git
-   colcon build
-   source install setup.bash
-   ros2 launch moveit demo.launch.py
-   ```
 ---
 ## 🙏 Thank You!
 
