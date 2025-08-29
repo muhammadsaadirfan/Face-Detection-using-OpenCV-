@@ -2,7 +2,7 @@
 
 ---
 
-![alt text](header.png)
+![alt text](facelock_header.png)
 
 ---
 
